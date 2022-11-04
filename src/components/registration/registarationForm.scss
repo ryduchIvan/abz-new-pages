@@ -1,0 +1,63 @@
+.registration__form {
+	max-width: 303px;
+	margin: 0px auto;
+	margin-top: 35px;
+}
+.registration__input {
+	margin-top: 24px;
+	position: relative;
+}
+.registration__btn {
+	text-align: left;
+	margin-top: 16px;
+}
+.registration__btn-text {
+	font-size: 13px;
+}
+.registration__btn-box {
+	margin-top: 8px;
+}
+.registration__file {
+	margin-top: 39px;
+}
+.registration__file-label {
+	height: 42px;
+	display: block;
+	display: flex;
+}
+.registration__file-text {
+	border: 1px solid black;
+	height: 100%;
+	width: 85px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.registration__file-filed {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 11px;
+	border: 1px solid #d0cfcf;
+	color: #7e7e7e;
+	background-color: transparent;
+	text-align: left;
+	font-size: 13px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.registration__file-input {
+	display: none;
+}
+.registration__submit {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+.registration__placeholder-big {
+	width: 75px;
+}

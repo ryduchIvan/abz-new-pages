@@ -1,0 +1,120 @@
+//There are globals styles here, you can use it anywhere
+@font-face {
+	font-family: "Nunito";
+	src: url(./assets/fonts/Nunito-Regular.ttf);
+}
+
+body {
+	font-family: "Nunito";
+	background-color: #f8f8f8;
+}
+.container {
+	margin: 0px auto;
+	max-width: 936px;
+}
+.input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d0cfcf;
+	border-radius: 4px;
+	background-color: transparent;
+	cursor: pointer;
+	&:focus {
+		outline: none;
+	}
+}
+
+.input__help-text {
+	display: block;
+	text-align: left;
+	font-size: 10px;
+	color: #7e7e7e;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.placeholder {
+	position: absolute;
+	top: 12px;
+	left: 8px;
+	width: 48px;
+	color: #7e7e7e;
+	font-size: 13px;
+	cursor: pointer;
+	background-color: transparent;
+	transition: 0.3s all ease-in-out;
+}
+.placeholder-anim {
+	top: -10px;
+	transition: 0.3s all ease-in-out;
+	background-color: #f8f8f8;
+	display: block;
+}
+.wrong-text {
+	color: #cb3d40;
+}
+.wrong-input {
+	border: 1px solid #cb3d40;
+}
+
+//NULL STYLES
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration-skip-ink: auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+article > * + * {
+	margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

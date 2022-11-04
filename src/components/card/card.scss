@@ -1,0 +1,57 @@
+.card__item {
+	flex: 0 1 32%;
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 17px;
+	border-radius: 10px;
+}
+.card__img {
+	display: block;
+	margin: 0px auto;
+	border-radius: 50%;
+	width: 58px;
+	height: 58px;
+}
+.card-text {
+	font-size: 13px;
+}
+.card__name {
+	margin-top: 15px;
+}
+.card__positon {
+	margin-top: 18px;
+}
+.card__email {
+	position: relative;
+	cursor: pointer;
+}
+.card__phone {
+}
+.card__email-popup {
+	background: rgba(0, 0, 0, 0.87);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 3px 16px;
+	color: white;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	opacity: 0;
+}
+.card__email:hover .card__email-popup {
+	transition: all 0.3s ease-in-out;
+	opacity: 1;
+}
+@media (max-width: 767px) {
+	.card__item {
+		flex: 0 1 49%;
+	}
+}
+@media (max-width: 564px) {
+	.card__item {
+		flex: 0 1 100%;
+	}
+}
