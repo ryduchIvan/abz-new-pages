@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/abz-new-pages/static/css/main.dccfed73.css",
+    "main.js": "/abz-new-pages/static/js/main.46d9f287.js",
+    "static/js/787.f5104f72.chunk.js": "/abz-new-pages/static/js/787.f5104f72.chunk.js",
+    "static/media/cover.jpg": "/abz-new-pages/static/media/cover.09863c21debdf17eca4d.jpg",
+    "static/media/Nunito-Regular.ttf": "/abz-new-pages/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
+    "static/media/successful-image.jpg": "/abz-new-pages/static/media/successful-image.c94ecbdf55d303e52ab4.jpg",
+    "static/media/logo.svg": "/abz-new-pages/static/media/logo.a054b0f9b2abf4e57c1eb6927dc48456.svg",
+    "index.html": "/abz-new-pages/index.html",
+    "static/media/preload.svg": "/abz-new-pages/static/media/preload.1657697a0a79f4ebb75c63eb31b1e7d4.svg",
+    "static/media/radio.svg": "/abz-new-pages/static/media/radio.af42a3ff810118680dbe.svg",
+    "main.dccfed73.css.map": "/abz-new-pages/static/css/main.dccfed73.css.map",
+    "main.46d9f287.js.map": "/abz-new-pages/static/js/main.46d9f287.js.map",
+    "787.f5104f72.chunk.js.map": "/abz-new-pages/static/js/787.f5104f72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dccfed73.css",
+    "static/js/main.46d9f287.js"
+  ]
+}
